@@ -1,0 +1,21 @@
+[RESOURCES]
+Cash in
+Cash out
+[VARIABLES]
+Cash Out booth.WaitTime
+Cash Out booth.VATime
+Waiting.NumberIn
+Waiting.VATime
+Customer arrival.NumberOut
+Cash In booth.VATime
+Waiting.NumberOut
+Cash In booth.NumberIn
+Cash In or Out.NumberOut False
+Available balance check.NumberOut True
+Cash Out booth.NumberOut
+Cash In booth.WaitTime
+Available balance check.NumberOut False
+Cash Out booth.NumberIn
+Cash In or Out.NumberOut True
+Cash In booth.NumberOut
+Exit.NumberOut

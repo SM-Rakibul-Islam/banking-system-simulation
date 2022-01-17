@@ -1,0 +1,76 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Banking system                                              Run execution date : 4/12/2021
+Analyst: sm1998rakibul@gmail.com                                     Model revision date: 4/12/2021
+
+Replication ended at time      : 15.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Cash In booth.VATimePerEntity               .05000     (Insuf)    .05000     .05000         30    
+Waiting.TotalTimePerEntity                  .06749     (Insuf)    .03399     .09938        119    
+Waiting.VATimePerEntity                     .06749     (Insuf)    .03399     .09938        119    
+Cash In booth.TotalTimePerEntity            .05205     (Insuf)    .05000     .09644         30    
+Cash Out booth.TotalTimePerEntity           .30999     (Insuf)    .13333     1.1518         75    
+Cash Out booth.VATimePerEntity              .13333     (Insuf)    .13333     .13333         75    
+Cash In booth.WaitTimePerEntity             .00205     (Insuf)    .00000     .04644         30    
+Cash Out booth.WaitTimePerEntity            .17666     (Insuf)    .00000     1.0184         75    
+customer.VATime                             .16595     (Insuf)    .03565     .23271        117    
+customer.NVATime                            .00000     (Insuf)    .00000     .00000        117    
+customer.WaitTime                           .11377     (Insuf)    .00000     1.0184        117    
+customer.TranTime                           .00000     (Insuf)    .00000     .00000        117    
+customer.OtherTime                          .00000     (Insuf)    .00000     .00000        117    
+customer.TotalTime                          .27971     (Insuf)    .03565     1.2155        117    
+Cash In booth.Queue.WaitingTime             .00205     (Insuf)    .00000     .04644         30    
+Cash Out booth.Queue.WaitingTime            .17933     (Insuf)    .00000     1.0184         76    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+customer.WIP                                2.2338     (Insuf)    .00000     10.000     2.0000    
+Cash in.NumberBusy                          .10000     (Insuf)    .00000     1.0000     .00000    
+Cash in.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cash in.Utilization                         .10000     (Insuf)    .00000     1.0000     .00000    
+Cash out.NumberBusy                         .67267     (Insuf)    .00000     1.0000     1.0000    
+Cash out.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cash out.Utilization                        .67267     (Insuf)    .00000     1.0000     1.0000    
+Cash In booth.Queue.NumberInQueue           .00410     (Insuf)    .00000     1.0000     .00000    
+Cash Out booth.Queue.NumberInQueue          .92161     (Insuf)    .00000     8.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Cash Out booth Accum Wait Time              13.249    
+Cash Out booth Accum VA Time                10.000    
+Waiting Number In                           119.00    
+Waiting Accum VA Time                       8.0313    
+Cash In booth Accum VA Time                 1.5000    
+Waiting Number Out                          119.00    
+Cash In booth Number In                     30.000    
+Cash Out booth Number Out                   75.000    
+Cash In booth Accum Wait Time               .06148    
+Cash Out booth Number In                    77.000    
+Cash In booth Number Out                    30.000    
+customer.NumberIn                           119.00    
+customer.NumberOut                          117.00    
+Cash in.NumberSeized                        30.000    
+Cash in.ScheduledUtilization                .10000    
+Cash out.NumberSeized                       76.000    
+Cash out.ScheduledUtilization               .67267    
+System.NumberOut                            117.00    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.
